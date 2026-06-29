@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato - HTech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-container">
+        <h1>HTech <span>Soluções em TI</span></h1>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="servicos.html">Serviços Prestados</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+</header>
+
+<main>
+
+    <h2>Entre em Contato</h2>
+
+    <form>
+
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="seuemail@dominio.com" required>
+
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" placeholder="(34) 99999-9999" required>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" rows="5" required></textarea>
+
+        <fieldset>
+
+            <legend>Como prefere nosso contato?</legend>
+
+            <label>
+                <input type="radio" name="contato">
+                E-mail
+            </label>
+
+            <label>
+                <input type="radio" name="contato">
+                Telefone
+            </label>
+
+            <label>
+                <input type="radio" name="contato" checked>
+                WhatsApp
+            </label>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Melhor horário para atendimento</legend>
+
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 HTech Soluções em TI</p>
+</footer>
+
+</body>
+</html>
